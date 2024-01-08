@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-route for handling User objects and operations
+"""handling User objects and operations
 """
 from flask import jsonify, abort, request
 from api.v1.views import app_views, storage
