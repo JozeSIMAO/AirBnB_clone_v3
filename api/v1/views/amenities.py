@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-route for handling Amenity objects and operations
+"""handling Amenity objects and operations
 """
 from flask import jsonify, abort, request
 from api.v1.views import app_views, storage
